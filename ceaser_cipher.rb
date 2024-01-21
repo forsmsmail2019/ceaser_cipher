@@ -52,3 +52,5 @@ else
 end
 
 end
+
+ceasar_cipher("ZZZZzzZ",2)
