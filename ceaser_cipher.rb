@@ -30,8 +30,10 @@ def ceasar_cipher(text,key)
       end
       #puts tmp_letter
       result +=tmp_letter
-    else
+
+    else #if char is not capital letter
       #print "#{c} is not capital letter "
+      #if factore nmber is more than 25
       if (c.ord - 97 + key) > 25
         shift = (c.ord - 97 + key) % 26
         #puts "it will shift by #{shift}"
